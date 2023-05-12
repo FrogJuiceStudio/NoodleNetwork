@@ -2,3 +2,35 @@
     scale: 0.5;
     border-radius: 50px;
 }
+
+.checkitout{
+    font-size: large;
+    color: aliceblue;
+}
+
+.intro--banner button .btn-background{
+    position:absolute;
+    top:0;
+    left:23px;
+    right:0;
+    height:100%;
+    background-color:#b13d3d;
+    z-index:-1;
+    -webkit-transition:left .2s ease-in-out;
+    transition:left .2s ease-in-out
+}
+
+.intro--options{
+    color: #b13d3d;
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-pack:justify;
+    -webkit-justify-content:space-between;
+    -ms-flex-pack:justify;
+    justify-content:space-between;
+    margin:0;
+    padding:0;
+    list-style:none
+}
