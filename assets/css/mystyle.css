@@ -1,11 +1,28 @@
-.cube{
-    scale: 0.5;
-    border-radius: 50px;
+.headerIcon{
+    width: 7vw;
+}
+
+.headerText{
+    font-size: 1vw !important;
+}
+
+.mainMessage{
+    /*font-size: calc(max(28px, 3vw)) !important;*/
+    text-transform: uppercase;
 }
 
 .checkitout{
-    font-size: large;
-    color: aliceblue;
+    font-size: calc(max(1vw, 5px)) !important;
+    color: aliceblue;    
+}
+
+.cube{
+    scale: 0.4;
+    border-radius: 50px;
+}
+
+.arrow{
+    width: 1vw !important;
 }
 
 .intro--banner button .btn-background{
