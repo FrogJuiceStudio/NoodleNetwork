@@ -1,28 +1,19 @@
+/* ----- HEADER --------------------------------- */
 .headerIcon{
-    width: 7vw;
+    width: 100px;
+    padding-top: 2px;
 }
+/* ---------------------------------------------- */
 
-.headerText{
-    font-size: 1vw !important;
-}
-
+/* ----- MAIN ----------------------------------- */
 .mainMessage{
-    /*font-size: calc(max(28px, 3vw)) !important;*/
     text-transform: uppercase;
-}
-
-.checkitout{
-    font-size: calc(max(1vw, 5px)) !important;
-    color: aliceblue;    
+    text-align: center;
 }
 
 .cube{
     scale: 0.4;
     border-radius: 50px;
-}
-
-.arrow{
-    width: 1vw !important;
 }
 
 .intro--banner button .btn-background{
@@ -51,3 +42,98 @@
     padding:0;
     list-style:none
 }
+
+.intro--banner::before{
+    content:"";
+    position:absolute;
+    bottom:20px;
+    left:-15px;
+    right:0;
+    height:2px;
+    background-color:#282828;
+    top: 270px;
+}
+
+.intro--banner::after{
+    content:"";
+    position:absolute;
+    bottom:18px;
+    left:0;
+    width:30px;
+    /* height:4px; */
+    background-color:#b13d3d;
+    top: 270px;
+}
+/* ---------------------------------------------- */
+
+/* ----- SOCIAL MEDIA --------------------------- */
+.social--banner{
+    position:relative;
+    height: 7vh;
+}
+.social--banner h1{
+    position: relative;
+    font-size: 60px;
+    font-weight:900;
+    line-height:1;
+    z-index:1;
+}
+.social--banner button{
+    position:relative;
+    padding: 5px 17px 5px 12px;
+    font-weight:700;
+    background-color: transparent;
+    border:none;
+}
+.social--banner button .btn-background{
+    position:absolute;
+    top:0;
+    left:23px;
+    right:0;
+    height:100%;
+    background-color:#b13d3d;
+    z-index:-1;
+    -webkit-transition:left .2s ease-in-out;
+    transition:left .2s ease-in-out
+}
+.social--banner button:hover .btn-background{
+    left:0
+}
+.social--banner button:focus{
+    outline:none
+}
+.social--banner button svg{
+    position:relative;
+    left:5px;
+    width: 15px;
+    fill:#fff
+}
+.social--banner img{
+    bottom: 20px;
+}
+.socialMediaGap{
+    min-height: 40px;
+    max-height: 8vh;
+}
+/* ----- INSTA --------------------------- */
+.insta{
+    width: 137px;
+}
+.insta button{
+    left: 25px;
+}
+/* ----- TikTok --------------------------- */
+.tiktok{
+    width: 138px;
+}
+.tiktok button{
+    left: 14px;
+}
+/* ----- Twitter --------------------------- */
+.twitter{
+    width: 139px;
+}
+.twitter button{
+    left: 9px;
+}
+/* ---------------------------------------------- */
