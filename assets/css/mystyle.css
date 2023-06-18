@@ -6,14 +6,19 @@
 /* ---------------------------------------------- */
 
 /* ----- MAIN ----------------------------------- */
-.mainMessage{
-    text-transform: uppercase;
-    text-align: center;
-}
-
 .cube{
     scale: 0.4;
     border-radius: 50px;
+}
+.minHeight-500px{
+    min-height: 500px;
+}
+.minHeight-600px{
+    min-height: 600px;
+}
+
+.marginForNav{
+    margin-left: 13vw;
 }
 
 .intro--banner button .btn-background{
@@ -22,7 +27,7 @@
     left:23px;
     right:0;
     height:100%;
-    background-color:#b13d3d;
+    background-color: #901b30;
     z-index:-1;
     -webkit-transition:left .2s ease-in-out;
     transition:left .2s ease-in-out
@@ -44,11 +49,11 @@
 }
 
 .intro--banner::before{
-    content:"";
+    content: "";
     position:absolute;
     bottom:20px;
-    left:-15px;
-    right:0;
+    left: -1px;
+    right: 0;
     height:2px;
     background-color:#282828;
     top: 270px;
@@ -58,15 +63,58 @@
     content:"";
     position:absolute;
     bottom:18px;
-    left:0;
+    left: 20px;
     width:30px;
     /* height:4px; */
-    background-color:#b13d3d;
+    background-color: #901b30;
     top: 270px;
+    display: none;
 }
 /* ---------------------------------------------- */
 
 /* ----- SOCIAL MEDIA --------------------------- */
+.desktop-social--options{
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:flex;
+    width:100%;
+    -webkit-box-orient:vertical;
+    -webkit-box-direction:normal;
+    -webkit-flex-direction:column;
+    -ms-flex-direction:column;
+    flex-direction: column;
+    -webkit-box-align:center;
+    -webkit-align-items:center;
+    -ms-flex-align:center;
+    /* align-items: baseline; */
+    margin:30px 0;
+}
+.desktop-options-row1{
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:flex;
+    width: 1000px;
+    -webkit-box-pack:justify;
+    -webkit-justify-content:space-between;
+    -ms-flex-pack:justify;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.desktop-options-row2{
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:flex;
+    width: 700px;
+    -webkit-flex-wrap:wrap;
+    -ms-flex-wrap:wrap;
+    flex-wrap:wrap;
+    -webkit-justify-content:space-around;
+    -ms-flex-pack:distribute;
+    justify-content: space-evenly;
+}
 .social--banner{
     position:relative;
     height: 7vh;
@@ -85,19 +133,17 @@
     background-color: transparent;
     border:none;
 }
-.social--banner button .btn-background{
-    position:absolute;
-    top:0;
-    left:23px;
-    right:0;
-    height:100%;
-    background-color:#b13d3d;
-    z-index:-1;
-    -webkit-transition:left .2s ease-in-out;
-    transition:left .2s ease-in-out
-}
 .social--banner button:hover .btn-background{
-    left:0
+    left:-40px;
+    background-color: #ededed;
+    display: inline-block;
+    box-shadow: -3px 2px 0px 1px #de2f5d;
+}
+.social--banner button:hover{
+    color: black;
+}
+.social--banner button:hover svg{
+    fill: black;
 }
 .social--banner button:focus{
     outline:none
@@ -106,7 +152,7 @@
     position:relative;
     left:5px;
     width: 15px;
-    fill:#fff
+    fill:#fff;
 }
 .social--banner img{
     bottom: 20px;
@@ -114,8 +160,10 @@
 .socialMediaGap{
     min-height: 40px;
     max-height: 8vh;
+    margin: 1vw;
 }
-/* ----- INSTA --------------------------- */
+
+/* ----- Insta --------------------------- */
 .insta{
     width: 137px;
 }
@@ -137,3 +185,43 @@
     left: 9px;
 }
 /* ---------------------------------------------- */
+
+/* ----- CONTACT -------------------------------- */
+.textbox{
+    background-color: #0c0c0c;
+    width: 75vw;
+    max-width: 1000px;
+    height: 8vh;
+    border-width: 2px;
+    border-color: #fff;
+}
+.hidden{
+    display: none;
+}
+
+.rating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    text-align: center;
+  }
+  .rating > input {
+    display: none;
+  }
+  .rating > label {
+    color: grey;
+    font-size: 2rem;
+    margin: 0 0.1rem;
+    cursor: pointer;
+  }
+  .rating > input:checked ~ label,
+  .rating > input:hover ~ label,
+  .rating > label:hover,
+  .rating > label:hover ~ label {
+    color: orange;
+  }
+  .rating > input:checked + label:hover,
+  .rating > input:checked ~ label:hover,
+  .rating > label:hover ~ input:checked ~ label,
+  .rating > input:checked ~ label:hover ~ label {
+    color: gold;
+  }
