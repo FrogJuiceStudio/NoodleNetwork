@@ -7,14 +7,15 @@
 
 /* ----- MAIN ----------------------------------- */
 .cube{
-    scale: 0.4;
+    scale: 0.45;
     border-radius: 50px;
+    box-shadow: 0px 0px 20px 14px #de2f5d;
 }
 .minHeight-500px{
     min-height: 500px;
 }
 .minHeight-600px{
-    min-height: 600px;
+    min-height: 700px;
 }
 
 .marginForNav{
@@ -78,7 +79,7 @@
     display:-webkit-flex;
     display:-ms-flexbox;
     display:flex;
-    width:100%;
+    width: 100%;
     -webkit-box-orient:vertical;
     -webkit-box-direction:normal;
     -webkit-flex-direction:column;
@@ -95,7 +96,8 @@
     display:-webkit-flex;
     display:-ms-flexbox;
     display:flex;
-    width: 1000px;
+    width: 90vw;
+    max-width: 1000px;
     -webkit-box-pack:justify;
     -webkit-justify-content:space-between;
     -ms-flex-pack:justify;
@@ -107,7 +109,8 @@
     display:-webkit-flex;
     display:-ms-flexbox;
     display:flex;
-    width: 700px;
+    width: 64vw;
+    max-width: 700px;
     -webkit-flex-wrap:wrap;
     -ms-flex-wrap:wrap;
     flex-wrap:wrap;
@@ -189,7 +192,7 @@
 /* ----- CONTACT -------------------------------- */
 .textbox{
     background-color: #0c0c0c;
-    width: 75vw;
+    width: 59vw;
     max-width: 1000px;
     height: 8vh;
     border-width: 2px;

@@ -40,7 +40,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,secti
 }
 audio,canvas,progress,video{
     display:inline-block;
-    vertical-align:baseline
+    vertical-align:baseline;
 }
 audio:not([controls]){
     display:none;
@@ -191,7 +191,7 @@ body{
 }
 body{
     background-color:#0c0c0c;
-    font-size: 14px;
+    /* font-size: 14px; */
     line-height:1.6;
     font-family:"Montserrat",sans-serif;
     color:#fff;
@@ -302,8 +302,7 @@ body{
 }
 .section{
     opacity:0;
-    /* visibility:hidden;
-     */
+    /* visibility:hidden; */
     -webkit-transition:opacity .4s ease-in-out,visibility 0s .4s;
     transition:opacity .4s ease-in-out,visibility 0s .4s
 }
@@ -592,7 +591,7 @@ body{
 }
 .intro--banner img{
     position: absolute;
-    bottom: 20px;
+    bottom: 30px;
 }
 .intro--options{
     display:-webkit-box;
@@ -1056,7 +1055,8 @@ body{
     display:-webkit-flex;
     display:-ms-flexbox;
     display:flex;
-    width:100%;
+    width: 108%;
+    align-self: center;
     -webkit-box-pack:justify;
     -webkit-justify-content:space-between;
     -ms-flex-pack:justify;
