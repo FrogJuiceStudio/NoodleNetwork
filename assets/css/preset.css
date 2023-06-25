@@ -4,6 +4,9 @@
     --font-color: #fff;
     --main-color: #a43549;
     --font-shadow-color: #de2f5d;
+
+    forced-color-adjust: exact;
+    forced-colors: active;
 }
 
 /* DARKMODE COLORS */
@@ -13,6 +16,9 @@
         --font-color: #fff;
         --main-color: #a43549;
         --font-shadow-color: #de2f5d;
+
+        forced-color-adjust: exact;
+        forced-colors: active;
     }
 }
 
