@@ -1,4 +1,284 @@
-/* ------------- MOBILE ------------- */
+@media (max-width: 1180px){
+    .l-side-nav{
+        display:flex
+    }
+}
+/* notification for small viewports and landscape oriented smartphones */
+/* @media (max-width: 767px) and (min-width: 601px) and (max-height: 680px){
+    .device-notification{
+        display:-webkit-box;
+        display:-webkit-flex;
+        display:-ms-flexbox;
+        display:flex
+    }
+}
+@media (max-width: 600px) and (min-width: 480px) and (max-height: 580px){
+    .device-notification{
+        display:-webkit-box;
+        display:-webkit-flex;
+        display:-ms-flexbox;
+        display:flex
+    }
+}
+@media (max-width: 736px) and (min-width: 360px) and (orientation: landscape){
+    .device-notification{
+        display:-webkit-box;
+        display:-webkit-flex;
+        display:-ms-flexbox;
+        display:flex
+    }
+}
+@media(max-width: 359px){
+    .device-notification{
+        display:-webkit-box;
+        display:-webkit-flex;
+        display:-ms-flexbox;
+        display:flex
+    }
+} */
+@media (max-width: 767px){
+    .header--cta{
+        display:none
+    }
+}
+
+/* ----- WORK ----- */
+/* @media (max-width: 1180px){
+    .work{
+        max-width:100%;
+    }
+} */
+@media (max-width: 900px){
+    /* .work--lockup .slider--item-image{
+        width:120px;
+        height:120px
+    } */
+    /* .work--lockup .slider--item-center .slider--item-image{
+        width:240px;
+        height:240px
+    } */
+    /* .work--lockup .slider--next,.work--lockup .slider--prev{
+        top:130px
+    } */
+}
+@media (max-width: 767px){
+    .work--lockup .slider{
+        width:75%
+    }
+    .work--lockup .slider--item-image{
+        width:90px;
+        height:90px
+    }
+    .work--lockup .slider--item-center .slider--item-image{
+        width:190px;
+        height:190px
+    }
+    .work--lockup .slider--next,.work--lockup .slider--prev{
+        top:105px
+    }
+}
+@media (max-width: 600px){
+    .work--lockup .slider{
+        width:auto
+    }
+    .work--lockup .slider--item-left,.work--lockup .slider--item-right{
+        display:none
+    }
+}
+@media (max-width: 1180px){
+    .about{
+        max-width:100%
+    }
+}
+@media (max-width: 767px){
+    .about--banner{
+        height:305px
+    }
+    .about--banner::before{
+        top:0;
+        left:125px
+    }
+    .about--banner::after{
+        top:35px;
+        left:260px
+    }
+    .about--banner h2{
+        margin-top:10px;
+        font-size:44px
+    }
+    .about--banner h2::before{
+        top:28px;
+        left:168px
+    }
+    .about--banner h2::after{
+        top:163px;
+        left:163px
+    }
+    .about--banner img{
+        width:315px
+    }
+}
+@media (max-width: 600px){
+    .about--banner{
+        height:auto
+    }
+    .about--banner::before{
+        left:155px
+    }
+    .about--banner::after{
+        left:310px
+    }
+    .about--banner h2{
+        margin-top:0;
+        font-size:55px
+    }
+    .about--banner h2::before{
+        top:43px;
+        left:214px
+    }
+    .about--banner h2::after{
+        top:205px;
+        left:205px
+    }
+    .about--banner img{
+        display:none
+    }
+    .about--options{
+        display:none
+    }
+}
+@media (max-width: 1180px){
+    .contact--lockup{
+        max-width:90%
+    }
+}
+@media (max-width: 767px){
+    .contact--lockup{
+        -webkit-box-pack:center;
+        -webkit-justify-content:center;
+        -ms-flex-pack:center;
+        justify-content:center
+    }
+}
+@media (max-width: 1180px){
+    .hire{
+        max-width:100%
+    }
+}
+@media (max-width: 767px){
+    .work-request--options{
+        -webkit-box-orient:horizontal;
+        -webkit-box-direction:normal;
+        -webkit-flex-direction:row;
+        -ms-flex-direction:row;
+        flex-direction:row;
+        -webkit-justify-content:space-around;
+        -ms-flex-pack:distribute;
+        justify-content:space-around
+    }
+    .work-request--options .options-a,.work-request--options .options-b{
+        display: flex;
+        /* width: auto; */
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+@media (max-width: 600px){
+    .work-request--options{
+        margin:20px 0;
+    }
+}
+@media (max-width: 600px) and (max-width: 415px){
+    .work-request--options{
+        -webkit-box-pack:justify;
+        -webkit-justify-content:space-between;
+        -ms-flex-pack:justify;
+        justify-content:space-between
+    }
+}
+@media (max-width: 600px){
+    .work-request--options label{
+        width: 250px;
+        margin-bottom:15px;
+        font-size: 16px;
+    }
+    .work-request--options input[type="checkbox"]:checked+label svg{
+        width:12px
+    }
+    .work-request--information{
+        margin-bottom:30px
+    }
+    .work-request--information .information-name,.work-request--information .information-email{
+        height:40px;
+        font-size: 24px;
+    }
+}
+@media (max-width: 767px){
+    .outer-nav>li{
+        font-size:44px
+    }
+}
+@media (max-width: 600px){
+    .outer-nav>li{
+        font-size:34px
+    }
+}
+
+/* ----- BODY ----- */
+@media (max-width: 1180px){
+    .intro{
+        /* max-width:100%; */
+    }
+}
+
+@media (max-width: 767px){
+    .intro--banner{
+        height:305px
+    }
+    .intro--banner h1{
+        font-size:44px
+    }
+    .intro--banner img{
+        width:330px;
+    }
+    .intro--options{
+        display:block
+    }
+    .intro--options>a{
+        display:block;
+        max-width:100%;
+        margin:0 0 30px 0
+    }
+    .intro--options>a:last-child{
+        margin-bottom:0
+    }
+}
+@media (max-width: 600px){
+    .intro--banner{
+        height: 270px;
+    }
+    .intro--banner h1{
+        font-size: 38px;
+    }
+    .intro--banner img{
+        width: 250px;
+    }
+}
+/* @media (max-width: 540px){
+    .intro--banner{
+        height: 230px;
+    }
+    .intro--banner h1{
+        font-size: 32px;
+    }
+    .intro--banner img{
+        width: 260px;
+    }
+} */
+
+
+/* MOBILE */
 @media (max-width: 860px){
     .desktop-socials{
         display:none;
@@ -71,10 +351,8 @@
         max-width:100%;
     }
 }
-/* ---------------------------------------------------------------------- */
-/* ---------------------------------------------------------------------- */
 
-/* ------------- DESKTOP ------------- */
+/* DESKTOP */
 @media (min-width: 861px) and (max-width: 2000px){
     .mobile-socials{
         display:none;

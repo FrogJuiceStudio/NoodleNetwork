@@ -17,6 +17,11 @@
 .minHeight-600px{
     min-height: 700px;
 }
+
+.marginForNav{
+    margin-left: 13vw;
+}
+
 .intro--banner button .btn-background{
     position:absolute;
     top:0;
@@ -28,6 +33,7 @@
     -webkit-transition:left .2s ease-in-out;
     transition:left .2s ease-in-out
 }
+
 .intro--options{
     color: #b13d3d;
     display:-webkit-box;
@@ -42,6 +48,7 @@
     padding:0;
     list-style:none
 }
+
 .intro--banner::before{
     content: "";
     position:absolute;
@@ -52,6 +59,7 @@
     background-color:#282828;
     top: 270px;
 }
+
 .intro--banner::after{
     content:"";
     position:absolute;
@@ -152,7 +160,7 @@
 .social--banner img{
     bottom: 20px;
 }
-.social-media-gap{
+.socialMediaGap{
     min-height: 40px;
     max-height: 8vh;
     margin: 1vw;
@@ -181,7 +189,7 @@
 }
 /* ---------------------------------------------- */
 
-/* ----- PAGE 3 -------------------------------- */
+/* ----- CONTACT -------------------------------- */
 .textbox{
     background-color: #0c0c0c;
     width: 59vw;
@@ -194,30 +202,29 @@
     display: none;
 }
 
-.rating{
+.rating {
     unicode-bidi: bidi-override;
     direction: rtl;
     text-align: center;
-}
-.rating > input{
+  }
+  .rating > input {
     display: none;
-}
-.rating > label{
+  }
+  .rating > label {
     color: grey;
     font-size: 2rem;
     margin: 0 0.1rem;
     cursor: pointer;
-}
-.rating > input:checked ~ label,
-.rating > input:hover ~ label,
-.rating > label:hover,
-.rating > label:hover ~ label{
+  }
+  .rating > input:checked ~ label,
+  .rating > input:hover ~ label,
+  .rating > label:hover,
+  .rating > label:hover ~ label {
     color: orange;
-}
+  }
   .rating > input:checked + label:hover,
   .rating > input:checked ~ label:hover,
   .rating > label:hover ~ input:checked ~ label,
-  .rating > input:checked ~ label:hover ~ label{
+  .rating > input:checked ~ label:hover ~ label {
     color: gold;
-}
-/* ---------------------------------------------- */
+  }
