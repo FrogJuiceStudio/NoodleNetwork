@@ -1,0 +1,183 @@
+/* ------------- MOBILE ------------- */
+@media (max-width: 860px){
+    .desktop-socials{
+        display:none;
+    }
+    .trailer{
+        position: relative;
+        top: -800px;
+        scale: 0.15;
+    }
+    .mobile-socials img{
+        width: 30px;
+    }
+    .playstore-btn{
+        left: -10px;
+    }
+    .playstore-btn img{
+        width: 40px !important;
+        float: left;
+        position: relative !important;
+        top: -8px;
+        padding-right: 10px;
+    }
+    .playstore-btn-background{
+        left: 80px !important;
+    }
+    .social--banner button:hover .playstore-btn-background{
+        left: 0px !important;
+    }
+    .social--banner button .btn-background {
+        position: absolute;
+        top: 2.3px;
+        left: 27px;
+        right: 0px;
+        height: 30px;
+        background-color: #a43549;
+        z-index: -1;
+        -webkit-transition: left .2s ease-in-out;
+        /* transition: left .2s ease-in-out; */
+        transform: skewX(-10deg);
+    }
+    .social-btn-txt{
+        color: #fff;
+    }
+    .intro{
+        align-items: center;
+    }
+    .intro--banner{
+        height: 200px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .intro--banner h1{
+        font-size: 32px;
+    }
+    .intro--banner img{
+        width: 250px;
+    }
+    .l-side-nav{
+        display: none;
+    }
+    .mainMessage{
+        margin-top: 120px;
+        width: -webkit-fill-available;
+        text-transform: uppercase;
+        text-align: center;
+        text-shadow: -2px 1px 0px #de2f5d;
+    }
+    .work{
+        max-width:100%;
+    }
+}
+/* ---------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------- */
+
+/* ------------- DESKTOP ------------- */
+@media (min-width: 861px) and (max-width: 2000px){
+    .mobile-socials{
+        display:none;
+    }
+    .trailer{
+        position: relative;
+        top: -678px;
+        right: 301px;
+        scale: 0.25;
+    }
+    .desktop-socials img{
+        width: 40px;
+        float: left;
+        padding-right: 10px;
+    }
+    .desktop-socials button{
+        font-size: 18px;
+    }
+    .desktop-socials button svg{
+        width: 17px;
+    }
+    .playstore-btn{
+        left: 0;
+    }
+    .playstore-btn img{
+        width: 40px !important;
+        float: left;
+        position: static !important;
+        padding-right: 11px;
+    }
+    .social--banner button .btn-background{
+        position: absolute;
+        top: 10.3px;
+        left: 85px;
+        right: 0px;
+        height: 30px;
+        background-color: #a43549;
+        z-index: -1;
+        -webkit-transition: left .2s ease-in-out;
+        /* transition: left .2s ease-in-out; */
+        transform: skewX(-10deg);
+    }
+    .social--banner button:hover .btn-background{
+        left:0;
+    }
+    .social-btn-txt{
+        color: #fff;
+        line-height: 38px;
+    }
+    .cube{
+        -webkit-transform-origin-x: left;
+    }
+    .mainMessage{
+        text-transform: uppercase;
+        text-shadow: -2px 2px 0px #de2f5d;
+    }
+    .intro{
+        margin-left: 15vw;
+    }
+    .intro--banner{
+        height: 380px;
+    }
+    .intro--banner::before{
+        width: 70vw;
+        max-width: 900px;
+    }
+    .intro--banner h1{
+        font-size:55px;
+    }
+    .intro--banner img{
+        width: 430px;
+        right: -200px;
+    }
+    .intro--options>a{
+        margin-right:30px;
+    }
+    .intro--options>a:last-child{
+        margin-right:0
+    }
+}
+@media (min-width: 761px) and (max-width: 1200px){
+    .work--lockup .slider--item-image{
+        width:120px;
+        height:120px;
+    }
+    .work--lockup .slider--item-center .slider--item-image{
+        width:240px;
+        height:240px
+    }
+    .work--lockup .slider--next,.work--lockup .slider--prev{
+        top:130px
+    }
+}
+@media (min-width: 1200px) and (max-width: 2000px){
+    .work--lockup .slider--item-image{
+        width:150px;
+        height:150px
+    }
+    .work--lockup .slider--item-center .slider--item-image{
+        width:300px;
+        height:300px
+    }
+    .work--lockup .slider--next,.work--lockup .slider--prev{
+        top:170px;
+    }
+}

@@ -1,0 +1,223 @@
+/* ----- HEADER --------------------------------- */
+.headerIcon{
+    width: 100px;
+    padding-top: 2px;
+}
+/* ---------------------------------------------- */
+
+/* ----- MAIN ----------------------------------- */
+.cube{
+    scale: 0.45;
+    border-radius: 50px;
+    box-shadow: 0px 0px 20px 14px #de2f5d;
+}
+.minHeight-500px{
+    min-height: 500px;
+}
+.minHeight-600px{
+    min-height: 700px;
+}
+.intro--banner button .btn-background{
+    position:absolute;
+    top:0;
+    left:23px;
+    right:0;
+    height:100%;
+    background-color: #901b30;
+    z-index:-1;
+    -webkit-transition:left .2s ease-in-out;
+    transition:left .2s ease-in-out
+}
+.intro--options{
+    color: #b13d3d;
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-pack:justify;
+    -webkit-justify-content:space-between;
+    -ms-flex-pack:justify;
+    justify-content:space-between;
+    margin:0;
+    padding:0;
+    list-style:none
+}
+.intro--banner::before{
+    content: "";
+    position:absolute;
+    bottom:20px;
+    left: -1px;
+    right: 0;
+    height:2px;
+    background-color:#282828;
+    top: 270px;
+}
+.intro--banner::after{
+    content:"";
+    position:absolute;
+    bottom:18px;
+    left: 20px;
+    width:30px;
+    /* height:4px; */
+    background-color: #901b30;
+    top: 270px;
+    display: none;
+}
+/* ---------------------------------------------- */
+
+/* ----- SOCIAL MEDIA --------------------------- */
+.desktop-social--options{
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:flex;
+    width: 100%;
+    -webkit-box-orient:vertical;
+    -webkit-box-direction:normal;
+    -webkit-flex-direction:column;
+    -ms-flex-direction:column;
+    flex-direction: column;
+    -webkit-box-align:center;
+    -webkit-align-items:center;
+    -ms-flex-align:center;
+    /* align-items: baseline; */
+    margin:30px 0;
+}
+.desktop-options-row1{
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:flex;
+    width: 90vw;
+    max-width: 1000px;
+    -webkit-box-pack:justify;
+    -webkit-justify-content:space-between;
+    -ms-flex-pack:justify;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.desktop-options-row2{
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:flex;
+    width: 64vw;
+    max-width: 700px;
+    -webkit-flex-wrap:wrap;
+    -ms-flex-wrap:wrap;
+    flex-wrap:wrap;
+    -webkit-justify-content:space-around;
+    -ms-flex-pack:distribute;
+    justify-content: space-evenly;
+}
+.social--banner{
+    position:relative;
+    height: 7vh;
+}
+.social--banner h1{
+    position: relative;
+    font-size: 60px;
+    font-weight:900;
+    line-height:1;
+    z-index:1;
+}
+.social--banner button{
+    position:relative;
+    padding: 5px 17px 5px 12px;
+    font-weight:700;
+    background-color: transparent;
+    border:none;
+}
+.social--banner button:hover .btn-background{
+    left:-40px;
+    background-color: #ededed;
+    display: inline-block;
+    box-shadow: -3px 2px 0px 1px #de2f5d;
+}
+.social--banner button:hover{
+    color: black;
+}
+.social--banner button:hover svg{
+    fill: black;
+}
+.social--banner button:focus{
+    outline:none
+}
+.social--banner button svg{
+    position:relative;
+    left:5px;
+    width: 15px;
+    fill:#fff;
+}
+.social--banner img{
+    bottom: 20px;
+}
+.social-media-gap{
+    min-height: 40px;
+    max-height: 8vh;
+    margin: 1vw;
+}
+
+/* ----- Insta --------------------------- */
+.insta{
+    width: 137px;
+}
+.insta button{
+    left: 25px;
+}
+/* ----- TikTok --------------------------- */
+.tiktok{
+    width: 138px;
+}
+.tiktok button{
+    left: 14px;
+}
+/* ----- Twitter --------------------------- */
+.twitter{
+    width: 139px;
+}
+.twitter button{
+    left: 9px;
+}
+/* ---------------------------------------------- */
+
+/* ----- PAGE 3 -------------------------------- */
+.textbox{
+    background-color: #0c0c0c;
+    width: 59vw;
+    max-width: 1000px;
+    height: 8vh;
+    border-width: 2px;
+    border-color: #fff;
+}
+.hidden{
+    display: none;
+}
+
+.rating{
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    text-align: center;
+}
+.rating > input{
+    display: none;
+}
+.rating > label{
+    color: grey;
+    font-size: 2rem;
+    margin: 0 0.1rem;
+    cursor: pointer;
+}
+.rating > input:checked ~ label,
+.rating > input:hover ~ label,
+.rating > label:hover,
+.rating > label:hover ~ label{
+    color: orange;
+}
+  .rating > input:checked + label:hover,
+  .rating > input:checked ~ label:hover,
+  .rating > label:hover ~ input:checked ~ label,
+  .rating > input:checked ~ label:hover ~ label{
+    color: gold;
+}
+/* ---------------------------------------------- */
