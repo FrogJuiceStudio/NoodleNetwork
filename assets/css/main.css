@@ -197,8 +197,6 @@ body{
     color:#fff;
     -webkit-font-smoothing:antialiased;
     -webkit-text-size-adjust:100%;
-    forced-color-adjust: exact;
-    forced-colors: active;
 }
 .l-viewport{
     position:relative;
