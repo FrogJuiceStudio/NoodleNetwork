@@ -7,7 +7,7 @@
 
 /* ----- MAIN ----------------------------------- */
 .cube{
-    scale: 0.45;
+    transform: scale(0.45);
     border-radius: 50px;
     box-shadow: 0px 0px 20px 14px #de2f5d;
 }
