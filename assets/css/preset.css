@@ -1,0 +1,19 @@
+/* COLORS */
+:root {
+    --background-color: #0c0c0c;
+    --main-color: #a43549;
+    --font-color: #fff;
+    --font-shadow-color: #de2f5d;
+    --inactive-color: #555;
+    --line-color: #282828;
+}
+
+/* DARKMODE COLORS */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background-color: #0c0c0c;
+        --main-color: #a43549;
+        --font-color: #fff;
+        --font-shadow-color: #de2f5d;
+    }
+}
